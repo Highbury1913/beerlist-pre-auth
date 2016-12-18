@@ -18,5 +18,6 @@ app.config(['$stateProvider','$urlRouterProvider', function($stateProvider, $url
       controller: 'AuthCtrl'
     })
 
+
   $urlRouterProvider.otherwise('home');
 }]);
